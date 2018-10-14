@@ -1,0 +1,51 @@
+[42.999505997] 2018-10-14 01:54:17,532 - INFO - launcher: Starting sanity checks
+[42.999505997] 2018-10-14 01:54:17,532 - INFO - launcher: Checking for Python 3.5+
+[42.999505997] 2018-10-14 01:54:17,532 - INFO - launcher: Checking console encoding
+[43.999433517] 2018-10-14 01:54:17,533 - INFO - launcher: Setting console encoding to UTF-8
+[43.999433517] 2018-10-14 01:54:17,533 - INFO - launcher: Ensuring we're in the right environment
+[45.004844666] 2018-10-14 01:54:17,534 - INFO - launcher: Adding local bins/ folder to path
+[744.992494583] 2018-10-14 01:54:18,234 - INFO - launcher: Required checks passed.
+[745.991706848] 2018-10-14 01:54:18,235 - INFO - launcher: Optional checks passed.
+[746.992349625] 2018-10-14 01:54:18,236 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.6200332641601562] 2018-10-14 01:54:19,109 - WARNING - musicbot.config | In config.py::MainThread(14888), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.6210329532623291] 2018-10-14 01:54:19,110 - INFO - musicbot.config | In config.py::MainThread(14888), line 124 in run_checks: Using i18n: config/i18n/en.json
+[1.6249954700469971] 2018-10-14 01:54:19,114 - DEBUG - musicbot.json | In json.py::MainThread(14888), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.6540327072143555] 2018-10-14 01:54:19,143 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 223 in _setup_logging: Set logging level to INFO
+[1.6540327072143555] 2018-10-14 01:54:19,143 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 83 in __init__: Starting MusicBot 1.9.8_1
+[1.6540327072143555] 2018-10-14 01:54:19,143 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[6.9207599163055420] 2018-10-14 01:54:24,409 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 913 in on_ready: Connection established, ready to go.
+[6.9207599163055420] 2018-10-14 01:54:24,409 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 334 in _cache_app_info: Caching app info
+[7.0737495422363281] 2018-10-14 01:54:24,562 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[7.0757493972778320] 2018-10-14 01:54:24,564 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 751 in _scheck_server_permissions: Checking server permissions
+[7.0757493972778320] 2018-10-14 01:54:24,564 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[7.0757493972778320] 2018-10-14 01:54:24,564 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 759 in _scheck_configs: Validating config
+[7.0757493972778320] 2018-10-14 01:54:24,564 - DEBUG - musicbot.config | In config.py::MainThread(14888), line 213 in async_validate: Validating options...
+[7.0757493972778320] 2018-10-14 01:54:24,564 - DEBUG - musicbot.config | In config.py::MainThread(14888), line 227 in async_validate: Acquired owner id via API
+[7.0757493972778320] 2018-10-14 01:54:24,564 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 762 in _scheck_configs: Validating permissions config
+[7.0757493972778320] 2018-10-14 01:54:24,564 - DEBUG - musicbot.permissions | In permissions.py::MainThread(14888), line 65 in async_validate: Validating permissions...
+[7.0757493972778320] 2018-10-14 01:54:24,564 - DEBUG - musicbot.permissions | In permissions.py::MainThread(14888), line 69 in async_validate: Fixing automatic owner group
+[7.0757493972778320] 2018-10-14 01:54:24,564 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 930 in on_ready: Connected: 500740916164952076/Alexa#6009
+[7.0768077373504639] 2018-10-14 01:54:24,565 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 938 in on_ready: Owner:     243754730403135488/nuh#6191
+
+[7.0768077373504639] 2018-10-14 01:54:24,565 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 941 in on_ready: Guild List:
+[7.0768077373504639] 2018-10-14 01:54:24,565 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 944 in on_ready:  - The Minishop
+[7.0768077373504639] 2018-10-14 01:54:24,565 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 990 in on_ready: Not bound to any text channels
+[7.0768077373504639] 2018-10-14 01:54:24,565 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 1016 in on_ready: Not autojoining any voice channels
+[7.0777487754821777] 2018-10-14 01:54:24,566 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 267 in _join_startup_channels: Found owner in "⚽💨 General 🏎"
+[7.0777487754821777] 2018-10-14 01:54:24,566 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 276 in _join_startup_channels: Attempting to join The Minishop/⚽💨 General 🏎
+[7.7959933280944824] 2018-10-14 01:54:25,285 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 292 in _join_startup_channels: Joined The Minishop/⚽💨 General 🏎
+[7.7959933280944824] 2018-10-14 01:54:25,285 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 505 in on_player_stop: Running on_player_stop
+[631.9479587078094482] 2018-10-14 02:04:49,436 - INFO - musicbot.bot | In bot.py::MainThread(14888), line 2840 in on_guild_join: Bot has been joined guild: asdasd
+[631.9479587078094482] 2018-10-14 02:04:49,436 - DEBUG - musicbot.bot | In bot.py::MainThread(14888), line 2842 in on_guild_join: Creating data folder for guild 500820989270294528
+[1108.8424503803253174] 2018-10-14 02:12:46,331 - ERROR - musicbot.bot | In bot.py::MainThread(14888), line 901 in on_error: Exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Noah\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 225, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Noah\Desktop\Bot\AlexaBot\musicbot\bot.py", line 2796, in on_voice_state_update
+    player = await self.get_player(channel)
+  File "C:\Users\Noah\Desktop\Bot\AlexaBot\musicbot\bot.py", line 425, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use alexasummon to summon it to your voice channel.
